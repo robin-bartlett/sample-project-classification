@@ -7,8 +7,6 @@ from sklearn.model_selection import train_test_split
 def decoding_numbers(df_original):
     df = df_original.copy()
     df = df.astype("str")
-    df.columns = df.iloc[0, :].values.tolist()
-    df = df.drop(0)
     if "Region" in df.columns.values:
         df["Region"] = df["Region"].replace(
             {

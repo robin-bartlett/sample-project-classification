@@ -1,6 +1,7 @@
 # Comparison of different classification models 🚀
 
-> We use a dataset from the 2011 UK census to predict approximated social grade. We compare results using different classifiers and varying features, highlighting advantages and disadvantages of the different algorithms.
+> We use a dataset from the 2011 UK census to predict approximated social grade. We compare results using different classifiers and varying features, highlighting advantages and disadvantages of the different algorithms. 
+The dataset can be download from the following page: https://www.ons.gov.uk/peoplepopulationandcommunity/educationandchildcare/datasets/2011censusteachingfile
 
 ## 📊 Project overview
 
@@ -27,8 +28,8 @@ We want to compare different multiclass classification algorithms dependent on t
 Clone the repository
 ```bash
 # Clone repository
-git clone [DEIN-REPO-LINK]
-cd [REPO-NAME]
+git clone https://github.com/robin-bartlett/sample-project-classification
+cd sample-project-classification
 ```
 
 Instal [uv](https://uv.dev) (if not installed already) and synchronise the dependencies
