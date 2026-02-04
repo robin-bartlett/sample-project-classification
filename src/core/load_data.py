@@ -27,6 +27,7 @@ def initalize_result_df():
             "Model",
             "search_space",
             "search_res",
+            "resampler"
         ]
     )
     results.to_csv("../data/processed/Comparison_models.csv", index=False)
